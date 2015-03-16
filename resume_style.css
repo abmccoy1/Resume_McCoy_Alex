@@ -1,0 +1,267 @@
+/***********MAIN FRAMEWORK TAGS***********************************
+
+******************************************************************/
+
+div.container{
+	height:1900px;
+	width:1200px;
+	background-color:white;
+	margin-left:60px;
+	margin-right:60px;
+}
+
+aside{
+	width:25%;
+	height:100%;
+	float:left;
+	background-color: gray;
+	
+}
+
+div.content{
+	width:70%;
+	height:100%;
+	float:left;
+	background-color: white;
+	margin-left:5%
+}
+
+header{
+	width:100%;
+	height:300px;
+	float:left;
+	background-color:white;
+}
+
+footer{
+	float:left;
+	width:100%;
+	height:100px;
+	background-color:#cfcfcf;
+}
+
+
+/***********SUB FRAMEWORK TAGS***********************************
+
+******************************************************************/
+div.portrait{
+	margin-top:10%;
+	margin-bottom:10%;
+	text-align: center;
+	vertical-align:middle;
+	
+}
+div.skills{
+
+	margin-top:10%;
+	margin-bottom:10%;
+	text-align: center;
+	
+	
+}
+
+div.comp{
+	margin-top:10%;
+	margin-bottom:10%;
+	text-align:center;
+	
+}
+
+div.basic-info{
+	height: 40%;
+	width:100%;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+div.name{
+	height:auto;
+	width:60%;
+	text-align:left;
+	float:left;
+	font-family: "Palatino Linotype", "Segoe Script",Georgia, Arial;
+}
+
+div.contact-info{
+	height:100%;
+	width:40%;
+	background-color:#white;
+	float:right;
+	
+}
+
+div.content-box{
+	height:auto;
+	width:76%;
+	margin-top:10%;
+	margin-bottom:5%;
+	background-color:#white;
+}
+
+div.quote{
+	margin-top:20px;
+	margin-bottom:20px;
+	height:25%;
+	width:90%;
+	text-align:center;
+	
+	
+}
+/* NOT CURRENTLY USED
+div.education{
+	margin-left:20px;
+
+}
+
+div.jobs{
+	margin-left:20px;
+
+}
+*/
+
+div.resume_section{
+	width:90%;
+	margin-left:20px;
+	margin-top:30px;
+	margin-bottom:5px;
+	float:left;
+}
+
+div.phone{
+	
+}
+
+div.mail{
+	
+}
+
+div.position{
+	
+}
+
+div.skills_header{
+	width:100%;
+	text-align: left;
+	margin:5%;
+	
+}
+
+div.comp_header{
+	width:100%;
+	text-align:left;
+	margin:5%;
+}
+
+div.skills_list{
+	width:100%
+}
+
+div.comp_list{
+	width:100%;
+
+}
+
+div.date-range{
+	color:#cfcfcf;
+	margin-left:0px;
+	font-style: italic;
+	font-family: sans-serif;
+	font-size: small;
+	position:absolute;
+	top:0px;
+	right:0px;
+
+}
+/***************COMPONENT TAGS***********************************
+
+******************************************************************/
+
+img.portrait{
+	vertical-align:middle;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	border-radius: 100%; 
+	height:120px;
+	width:120px;
+}
+
+blockquote{
+	background-color:#eeeeee;
+}
+
+.side-bar-lists{
+
+}
+
+ul.side-bar-lists{
+	padding-left:1em;
+	margin-left:5%;
+	text-align:left;
+	
+}
+
+li span{
+
+}
+
+h1.name{
+	margin-left:20px;
+	font-size:50px;
+}
+h2.resume_section_header{
+	display:inline;
+	width:auto;
+	height:auto;
+}
+
+dl.resume_list{
+	margin-top:20px;
+	margin-bottom:20px;
+	list-style: circle;
+}
+
+dt.descrip_list_head{
+	margin-top:15px;
+	margin-bottom:15px;
+	font-weight: bold;
+}
+
+dd.descrip_list_data{
+	margin-top:10px;
+	margin-bottom:10px;
+	font-style: italic;
+	
+}
+article{
+	position: relative;
+}
+
+p.footer{
+	text-align: center;
+	vertical-align:text-bottom;
+}
+
+table.nav_table{
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+	font-size:larger;
+}
+
+th.nav_option{
+	text-decoration: underline;
+	padding:4px;
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	color:navy;
+}
+
+a:visited{
+	color: ThreedDarkShadow;
+}
